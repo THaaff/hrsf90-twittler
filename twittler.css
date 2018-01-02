@@ -1,0 +1,141 @@
+body{
+    height: 100%;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+   color: #0084B4;
+   text-decoration: none;
+}
+
+a:hover, a:active{
+    text-decoration: underline;
+}
+
+h1{
+    color: #0084B4; 
+    font-size: 30px;  
+}
+
+/*#sidebar{
+    float: left;
+    width: 20%;
+    display: block;
+    background: #fff;
+    margin: 30px 10px 0 35px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}*/
+
+#sidebar-logo{
+    height: 70px;
+    display: block;
+    background-color: #0084B4;
+    background-image: url("logo.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#back-to-home{
+    padding-bottom: 10px;
+    display: block;
+}
+
+#enter-tweet{
+    width: 96%;
+    height: 100px;
+    font-size: 18px;
+    background-color: #f8f8f8;
+    border: none;
+    padding: 5px;
+}
+
+#submit-tweet{
+    width: 100%;
+    background: #fff;
+    border: 1px solid #0084B4;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #0084B4;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submit-tweet:hover{
+    background: #0084B4;
+    border: none;
+    color: #fff;
+}
+
+#timeline{
+    float: left;
+    width: 60%;
+    margin: 30px 10px 0 35px;
+}
+
+#timeline-newtweets{
+    border: 1px solid #0084B4;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0084B4;
+    cursor: pointer;
+}
+
+#timeline-newtweets:hover{
+    background-color: #0084B4;
+    color: #fff;
+}
+
+.tweet{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.tweet-top{
+    display: inline;
+}
+
+.tweet-user{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline;
+}
+
+.user-link{
+    text-decoration: none;
+}
+
+
+.tweet-user span, .tweet-date{
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+    display: inline;
+}
+
+.tweet-user span{
+    padding-left: 5px;
+}
+
+.tweet-date:before { 
+    content:"\00b7";
+    font-size: 16px;
+    padding: 0 5px 0 5px;
+}
+
+.tweet-message{
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 10px 0 5px 0;
+}
+
+.hide{
+    visibility: hidden;
+    display: none;
+}
